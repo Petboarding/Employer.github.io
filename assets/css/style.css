@@ -1,0 +1,531 @@
+body{
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	
+}
+
+:root{
+
+	--green:#3dcfd3;
+	--dark:#161616;
+	--gray:#898989;
+	--light:#f2f2f2;
+	--white:#fff;
+	--text:#8A1F20;
+	--family:'popins';
+	--familyp:Consolas;
+}
+/*--------------------Navbar sec start--------------------------*/
+.navbar{
+	width: 100%;
+}
+.navbar .navbar-nav{
+	width: 100%;
+}
+
+.navbar .container .navbar-nav .nav-item{
+	padding: 18.5px;
+	color: #fff;
+	/*height: 80px;*/
+	
+}
+.navbar .container .navbar-nav .nav-item .nav-link{
+	color: var(--white);
+	font-size: 16.5px;
+	font-family:var(--family);
+
+
+}
+.navbar .container .navbar-nav .nav-item .nav-link:hover{
+	color: var(--text);
+	transition: .1s;
+
+
+
+}
+.navbar .container .navbar-nav .nav-item .nav-link img{
+	width: 22px;
+
+
+
+}
+.navbar .container  .btn{
+	background: #fff;
+	width: 166px;
+	border-radius: 50px;
+	height: 45px;
+    color: var(--text);
+	font-size: 16px;
+	font-family:var(--familyp);
+	font-weight: bold;
+
+}
+.navbar .container  .btn:hover{
+	background-color: var(--text);
+	color: #fff;
+
+}
+/*----------------------Banr sec start----------------------*/
+
+
+.bg{
+
+	background-image:url(../images/bg.jpg);
+	background-size:cover;
+	width: 100%;
+	opacity:.9;
+
+	height: 650px;
+
+	
+}
+.bg .container .content h1{
+	font-size: 90px;
+	color: var(--white);
+	font-weight: 800;
+   font-style: normal;
+   font-family:var(--family);
+   letter-spacing: px;
+
+}
+.bg .container .content p{
+	font-size: 50px;
+	color: var(--white);
+	font-style: normal;
+	font-family:var(--familyp);
+	word-spacing: 15px;
+	letter-spacing: 4px;
+	font-weight: 600;
+
+}
+.bg .container .content .btn{
+	background-color: var(--text);
+	width: 200px;
+	border-radius: 50px;
+	height: 48px;
+    color: var(--text);
+	font-size: 16px;
+	color: #fff;
+	border-color: #fff;
+	word-spacing: px;
+	margin-top: 30px;
+	font-family:var(--familyp);
+	font-weight: bold;
+
+
+}
+
+.bg .container .content .btn:hover{
+	background-color:#fff;
+	color: var(--text);
+	transition: .3s;
+}
+
+
+
+.bg .container .content .btn img{
+	position: relative;
+	left: 10px;
+}
+
+.bg .container .content{
+	margin-top: 128px;
+}
+.bg .container .content::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	background: ;
+	animation: show 3s ease forwards;
+	animation-delay: .9s;
+
+}
+/*----------------------------About us sec start------------------------*/
+.abut-sec{
+	background-color: #1B1818;
+/*clip-path: polygon(30% 0%, 70% 0%, 100% 0, 100% 90%, 70% 100%, 30% 100%, 0 90%, 0 0);
+*/
+	clip-path: polygon(43% 0, 100% 0, 100% 72%, 100% 98%, 53% 100%, 0 98%, 0 0);
+
+
+}
+.abut-sec .container .content h6{
+	font-size: 20px;
+	color: var(--white);
+	font-style: normal;
+	/*font-family:var(--family);*/
+	font-family:var(--familyp);
+	font-weight: bold;
+
+}
+.abut-sec .container .content h4{
+	font-size: 35px;
+	color: var(--white);
+	font-weight: 700;
+   font-style: normal;
+  font-family:var(--family);
+   letter-spacing: 2px;
+   
+
+}
+.abut-sec .container .content p{
+	font-size: 15px;
+	color: var(--white);
+	font-style: normal;
+	
+	font-family:var(--familyp);
+
+}
+.abut-sec .container .content p span{
+	font-size: 15px;
+	color: var(--text);
+	font-style: normal;
+	/*font-family:var(--family);*/
+     font-family:var(--familyp);
+	font-weight: 600;
+}
+.abut-sec .container .content .btn{
+	background-color: var(--text);
+	width: 200px;
+	border-radius: 50px;
+	height: 48px;
+    color: var(--text);
+	font-size: 16px;
+	font-family: 'Metropolis';
+	color: #fff;
+	border-color: #fff;
+	word-spacing: 4px;
+	margin-top: 40px;
+	line-height: 38px;
+	font-family:var(--familyp);
+	font-weight: bold;
+
+
+}
+.abut-sec .container .content .btn:hover{
+	background-color:#fff;
+	color: var(--text);
+	transition: .3s;
+	}
+.abut-sec .container .content .abt-img{
+	background-image:url(../images/bg.jpg);
+	background-size:cover;
+	width: 100%;
+	opacity:.9;
+    margin-top: 110px;
+	height: 300px;
+}
+.abut-sec .container .content .abt-text{
+	margin-top: 110px;
+
+}
+.abut-sec .container .content{
+	height: 700px;
+}
+.abut-sec .container .content .abt-img img{
+	width: 200px;
+	position: relative;
+	top: 270px;
+	left: 370px;
+	box-shadow: -10px -12px #8A1F20;
+
+}
+/*--------------------------Srvc sec start------------------------*/
+.srvc-sec{
+	background-color: var(--text);
+	margin-top: -25px;
+/*clip-path: polygon(51% 1%, 100% 0, 100% 72%, 100% 100%, 100% 99%, 0 98%, 0 0);*/
+/*clip-path: polygon(51% 1%, 100% 0, 100% 100%, 75% 100%, 25% 100%, 0 100%, 0 0);*/
+
+
+   height: 2350px;
+
+}
+.srvc-sec .container h4{
+	padding-top: 90px;
+	font-size: 34px;
+	color: var(--white);
+	font-weight: 700;
+   font-style: normal;
+  font-family:var(--family);
+   letter-spacing: 2px;
+
+}
+.srvc-sec .container .content img{
+	width: 500px;
+	height: 230px;
+}
+.srvc-sec .container .content{
+	margin-top: 85px;
+}
+.srvc-sec .container .content h6{
+	font-size: 35px;
+	color: var(--white);
+	font-style: normal;
+	font-family:var(--family);
+	margin-top: 10px;
+	font-weight: 400;
+
+}
+.srvc-sec .container .content p{
+	font-size: 15.5px;
+	color: var(--white);
+	font-style: normal;
+	/*font-family:var(--family);*/
+     line-height: 26px;
+	margin-top: 26px;
+	word-spacing: 3px;
+	font-family:var(--familyp);
+
+
+
+}
+
+.srvc-sec .container  .content-2{
+	margin-top: 90px;
+}
+
+.srvc-sec .container .content-2 img{
+	width: 500px;
+	height: 230px;
+}
+.srvc-sec .container .content-2 h6{
+	font-size: 35px;
+	color: var(--white);
+	font-style: normal;
+	font-family:var(--family);
+
+	word-spacing: 7px;
+	letter-spacing: 2px;
+
+}
+.srvc-sec .container .content-2 p{
+	font-size: 15.5px;
+	color: var(--white);
+	font-style: normal;
+	/*font-family:var(--family);*/
+     line-height: 26px;
+	margin-top: 26px;
+	word-spacing: 3px;
+	font-family:var(--familyp);
+
+
+}
+.srvc-sec .container .content-2 p span{
+	color: #000;
+	font-family:var(--familyp);
+	font-size: 16px;
+	font-weight: bold;
+}
+.srvc-sec .container .content-3 img{
+	width: 500px;
+	height: 230px;
+}
+.srvc-sec .container .content-3{
+	margin-top: 85px;
+}
+.srvc-sec .container .content-3 h6{
+	font-size: 35px;
+	color: var(--white);
+	font-style: normal;
+	font-family:var(--family);
+	margin-top: 10px;
+	font-weight: 400;
+
+}
+.srvc-sec .container .content-3 p{
+	font-size: 15.5px;
+	color: var(--white);
+	font-style: normal;
+	/*font-family:var(--family);*/
+     line-height: 26px;
+	margin-top: 26px;
+	word-spacing: 3px;
+	font-family:var(--familyp);
+
+
+
+}
+.srvc-sec .container .content-3 p span{
+	color: #000;
+	font-family:var(--familyp);
+	font-size: 16px;
+	font-weight: bold;
+}
+/*-----------------------------Card sec start-------------------*/
+
+
+.text{
+	background-color: #fff;
+	height: 65px;
+	border-radius: 1px;
+	padding: 15px;
+	
+
+}
+.text span{
+	font-size: 16px;
+	color: var(--text);
+	font-family: var(--familyp);
+	font-weight: 600;
+
+}
+.main-card{
+	/*transform: translatey(-170px);*/
+	position: relative;
+	top: 71px;
+	z-index: 1;
+
+
+}
+/*-----------------hOUSE SEC START-------------------*/
+.house-sec{
+
+height: 890px;	
+background: #000;
+margin-top: -47px;
+
+}
+.house-sec .container h4{
+	color: #fff;
+	font-size: 34px;
+	font-family: var(--family);
+	font-weight: 700;
+	word-spacing: 5px;
+
+}
+.house-sec .container  .house{
+	padding-top: 190px;
+}
+.house-sec .container  .house .house-1 img{
+width: 125px;
+text-align: center;
+position: relative;
+/*left: 100px;*/
+}
+.house-sec .container  .house .house-1 {
+	background-color: #fff;
+	height: 200px;
+	text-align: center;
+	padding: 10px;
+	margin-top: 50px;
+	border-radius:6px;
+}
+.house-sec .container  .house .house-1:hover{
+	border-radius: 4px;
+
+}
+.house-sec .container  .house .house-1 h6 {
+color: var(--text);
+font-family: var(--familyp);
+font-weight: 550;
+text-align: center;
+}
+.house-sec .container  .house .house-2 img{
+width: 132px;
+text-align: center;
+position: relative;
+/*left: 100px;*/
+}
+.house-sec .container  .house .house-2 {
+	background-color: #fff;
+	height: 200px;
+	text-align: center;
+	padding: 34px;
+	margin-top: 50px;
+		border-radius:6px;
+}
+.house-sec .container  .house .house-2 h6 {
+color: var(--text);
+font-family: var(--familyp);
+font-weight: 550;
+text-align: center;
+margin-top: 15px;
+}
+.house-sec .container .house-1:hover{
+   height: 207px;
+    transition: .2s;
+
+}
+.house-sec .container .house-2:hover{
+   height: 207px;
+    transition: .2s;
+
+}
+/*--------------------------Fotr sec start------------------------*/
+.foter-sec{
+height: 450px;	
+/*background: #000;*/
+margin-top:px;
+
+}
+.foter-sec .img img{
+	width: 150px;
+	margin-top: -15px;
+
+}
+.foter-sec .container .lc-img img{
+	width:15px;
+
+}
+.foter-sec .container .fotr-cnt{
+	margin-top: 45px;
+}
+.foter-sec .container .fotr-cnt h4{
+	color: #fff;
+	font-family: var(--familyp);
+	font-size: 27px;
+
+}
+.foter-sec .container .fotr-cnt h6{
+	color: #fff;
+	font-family: var(--familyp);
+	font-size: 13px;
+}
+.foter-sec .container .fotr-cnt span{
+	color: #fff;
+	font-family: var(--familyp);
+	font-size: 12.5px;
+}
+.foter-sec .container .fotr-cnt i{
+	color: #fff;
+	font-size: 22px;
+}
+.foter-sec .container .fotr-cnt i:hover{
+color: var(--text);
+transition: .1s;
+
+}
+/*-------Ending line=--------*/
+.ending-line{
+	width: 100%;
+	height: 74px;
+	background-color: var(--text);
+	color: #fff;
+}
+.ending-line p{
+	line-height: 75px;
+	font-family: var(--familyp);
+	font-size: 15px;
+	word-spacing: 4px;
+}
+
+.ending-line p span{
+	color: #fff;
+	font-weight: bold;
+	font-size: 17px;
+
+}
+.ending-line p span:hover{
+	color: #000;
+	cursor: pointer;
+	transition: .2s;
+
+
+}
+
