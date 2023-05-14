@@ -21,6 +21,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Raleway:wght@300&display=swap" rel="stylesheet">
 	<!-- animate css -->
 	<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+	<!-- aos animate -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 
@@ -134,7 +136,7 @@
 </div>
 <!--------------------------------About us sec start-------------------------->
 <div class="abut-sec" id="about us">
-  <div class="container">
+  <div class="container"   data-aos="fade-left">
     <div class="content">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -159,7 +161,7 @@
 <div class="srvc-sec" id="services">
   <div class="container">
     <h4 class="text-center">SERVICES WE PROVIDE</h4>
-    <div class="content">
+    <div class="content"  data-aos="fade-right">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6">
          <img src="assets/images/srvc.png" class="img-fluid">
@@ -172,7 +174,7 @@
     </div>
     </div>
 
-    <div class="content-2">
+    <div class="content-2"  data-aos="fade-left">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6">
         <h6>Functional Retaining Walls</h6>
@@ -187,7 +189,7 @@
     </div>
 
 
-  <div class="content-3">
+  <div class="content-3"  data-aos="fade-right">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6">
          <img src="assets/images/srvc.png" class="img-fluid">
@@ -200,7 +202,7 @@
     </div>
     </div>
 
-    <div class="content-2">
+    <div class="content-2"  data-aos="fade-left">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6">
         <h6>Garage Slabs/Basic Slab/Skill</h6>
@@ -214,7 +216,7 @@
     </div>
     </div>
 
-    <div class="content-3">
+    <div class="content-3"  data-aos="fade-right">
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-6">
          <img src="assets/images/srvc.png" class="img-fluid">
@@ -227,9 +229,9 @@
       </div>
     </div>
     </div>
-<h4 class="text-center">FINISHES WE OFFER</h4>
+<h4 class="text-center" data-aos="fade-right">FINISHES WE OFFER</h4>
 
-<div class="main-card text-center">
+<div class="main-card text-center" data-aos="zoom-in">
       
       <div class="row">
 
@@ -269,7 +271,7 @@
 </div>
 <!----------------------------------------Finish ofr sec start-------------------------->
 <div class="house-sec" id="products">
-  <div class="container">
+  <div class="container" data-aos="fade-right">
 
     <div class="house">
       <h4 class="text-center">WHO WE SERVE</h4>
@@ -426,6 +428,16 @@
 </div>
 
 
+<!-- aos animate -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init(
+    {
+      offset:300,
+      duration:2000,
+      
+    });
+  </script>
 
 
 
